@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sample-web-app
+  template:
+    metadata:
+      labels:
+        app: sample-web-app
+    spec:
+      containers:
+      - name: sample-web-app
+        image: htmlwebappacr.azurecr.io/sample-web-app:v1
+        ports:
+        - containerPort: 80
