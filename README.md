@@ -35,6 +35,7 @@ Make sure your terminal/command prompt is open and ready.
 
 ####  1. Build the Docker Image
 Build the Docker image locally:
+
 you need to open docker desktop for this
 
 docker build -t sample-web-app .
@@ -95,12 +96,14 @@ az aks update --name htmlwebapp --resource-group assignment2 --attach-acr htmlwe
 
 #### 13. Create Kubernetes Deployment and Service Manifests
 Create deployment.yaml:
+
 Create service.yaml:
 
 #### 14. Apply the Kubernetes Manifests
 Deploy the application using the Kubernetes manifests:
 
 kubectl apply -f deployment.yaml
+
 kubectl apply -f service.yaml
 
 
