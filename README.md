@@ -1,4 +1,4 @@
-# Sample HTML Web Application on Azure
+# Sample HTML Web Application on Azure using AKS
 
 This project demonstrates how to deploy a sample HTML web application using Azure Kubernetes Service (AKS) and Azure Container Registry (ACR).
 
