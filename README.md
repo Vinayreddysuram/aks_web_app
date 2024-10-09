@@ -35,6 +35,7 @@ Make sure your terminal/command prompt is open and ready.
 
 ####  1. Build the Docker Image
 Build the Docker image locally:
+you need to open docker desktop for this
 
 docker build -t sample-web-app .
 
@@ -102,6 +103,8 @@ Deploy the application using the Kubernetes manifests:
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 
+<span style="color:red">This is red text.</span>
+<span style="color:blue">This is blue text.</span>
 
 #### 15. Get the External IP of Your Service
 Check the status of your service to get the external IP:
