@@ -117,7 +117,7 @@ Note the external IP address. It might take a few minutes to be assigned.
 #### 16. Access the Web Application
 Open your browser and navigate to the external IP address to view your sample HTML web application.
 
-#### Few this to consider for securing the AKS cluster and website
+#### Few things to consider for securing the AKS cluster and website
 
 1. While creating the AKS cluster, we can set authorized IP addresses to access the API server. This means that if an IP address is not included, even if a user logs in with their Azure account using the CLI, they will not be able to access the AKS cluster
 
